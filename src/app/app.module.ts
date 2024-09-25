@@ -4,19 +4,24 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductoListComponent } from './product/producto-list/producto-list.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductoFilterPipe } from './product/producto-filter.pipe';
+import { EjemploComponent } from './formualarios/ejemplo/ejemplo.component';
+import { DistanciaComponent } from './formualarios/distancia/distancia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductoListComponent,
-    ProductoFilterPipe
+    ProductoFilterPipe,
+    EjemploComponent,
+    DistanciaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
