@@ -8,6 +8,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductoFilterPipe } from './product/producto-filter.pipe';
 import { EjemploComponent } from './formualarios/ejemplo/ejemplo.component';
 import { DistanciaComponent } from './formualarios/distancia/distancia.component';
+import { ZodiacoComponent } from './formularios/zodiaco/zodiaco.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DistanciaComponent } from './formualarios/distancia/distancia.component
     ProductoListComponent,
     ProductoFilterPipe,
     EjemploComponent,
-    DistanciaComponent
+    DistanciaComponent,
+    ZodiacoComponent
   ],
   imports: [
     BrowserModule,
